@@ -184,12 +184,13 @@ The data was analyzed to determine the total number of reviews. Then the previou
 
 This study's purpose was to analyze whether the reviews of Amazon Vine program subscribers had any positive bias compared to reviews from nonsubscribers. If there was bias, more favorable reviews would come from paid Vine subscriptions versus nonsubscriber reviews.
 
-The data for this study shows the exact opposite. There was definite bias for **nonsubcriber** reviews. In fact, there were no 5-star Vine reviews in the filtered data. Every 5-star review in this dataset came from a nonsubscriber.
+The data for this study shows the exact opposite. There was no positivity bias towards Vine subscribers; however, there was definite positivity bias towards **Nonsubcriber** reviews. In fact, there was not a single 5-star Vine review in the filtered data. Every 5-star review in this dataset came from a Nonsubscriber.
 
-Another analysis shows how few Vine subscribers there are in the total unfiltered dataset. Out of 12,520,722 reviews, there are only **32** vine reviews. When the data is filtered, none of these 32 Vine reviews are inlcuded in the filtered results.
+Another analysis shows how few Vine subscribers there are in the total unfiltered dataset. Out of 12,520,722 reviews, there are only **32** Vine reviews, or 0.00026% of all ebook reviews. In this dataset there is no positivity bias towards Vine subcribers.
 
 ![SQL Count of All Vine](Images/SQL_total_vine.jpg)
 
 The percentage of all Vine subscribers (0.00026%) out of the total number of reviews in this dataset are shown below.
 
 ![SQL Percentage of All Vine](Images/SQL_all_yes_percentage.jpg)
+
